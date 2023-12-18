@@ -5,7 +5,6 @@ from tkinter import messagebox
 from geopy.geocoders import Nominatim as Nom
 from timezonefinder import TimezoneFinder as Tzf
 from datetime import datetime as dt
-from time import strftime
 
 # define a function for weather
 def get_city_weather():
@@ -28,7 +27,7 @@ def get_city_weather():
         loc_time.config(text = time_format)
 
         # Weather
-        Api_key = "06d06c4fc9dc3dd8455ed01acc77cdee"
+        Api_key = "Your API Key"
         Api = f"https://api.openweathermap.org/data/2.5/weather?lat={latit}&lon={longtu}&appid={Api_key}"
         
         # Get Weather Information
