@@ -55,11 +55,11 @@ def get_city_weather():
             status_logo.config(file=r"img\Weather_icon_heavy_rain.png")
         elif (status =="Clear"):
             status_logo.config(file=r"img\Weather_icon_sunny.png")
-        elif (status == "Fog" or status =="Haze"):
-            status_logo.config(file=r"img\Weather_icon_overcast.png")
+        elif (status == "Fog" or status =="Haze" or  status =="Mist" or status =="Smoke"):
+            status_logo.config(file=r"img\Weather_icon_fog.png")
         elif (status == "Snow"):
             status_logo.config(file=r"img\Weather_icon_snowy.png")
-        elif(status == "Tornado" or status =="Mist" or status =="Smoke" or status =="Squall" or status =="Ash"):
+        elif(status == "Tornado" or status =="Squall" or status =="Ash"):
             status_logo.config(file=r"img\Weather_icon_windy.png")
         elif (status == "Thunderstorm"):
             status_logo.config(file=r"img\Weather_icon_thunder.png")
