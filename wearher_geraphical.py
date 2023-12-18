@@ -5,7 +5,6 @@ from tkinter import messagebox
 from geopy.geocoders import Nominatim as Nom
 from timezonefinder import TimezoneFinder as Tzf
 from datetime import datetime as dt
-from time import strftime
 
 # define a function for weather
 def get_city_weather():
