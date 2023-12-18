@@ -74,6 +74,7 @@ main_root = tk.Tk()
 main_root.geometry("800x450+50+50")
 main_root.resizable(False, False)
 main_root.title('Graphical Weather')
+main_root.iconbitmap(default=r"img\cloudy.ico")
 
 # Artificial Intelligence Logo
 A_I_A = tk.PhotoImage(file=r"img\AIA_LOGO_CLUB.png")
