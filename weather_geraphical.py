@@ -28,7 +28,7 @@ def get_city_weather():
         loc_time.config(text = time_format)
 
         # Weather
-        Api_key = "06d06c4fc9dc3dd8455ed01acc77cdee"
+        Api_key = "Your API Key!" # Write your recived API key from Openweathermap Here
         Api = f"https://api.openweathermap.org/data/2.5/weather?lat={latit}&lon={longtu}&appid={Api_key}"
         
         # Get Weather Information
